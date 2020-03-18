@@ -31,6 +31,31 @@ https://templatemo.com/tm-516-known
   clear: both;
   display: table;
 }
+
+
+
+/*topbutton*/
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 </style>
 
 
@@ -53,6 +78,7 @@ https://templatemo.com/tm-516-known
 
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
      <!-- PRE LOADER -->
      <section class="preloader">
@@ -84,14 +110,15 @@ https://templatemo.com/tm-516-known
                     <ul class="nav navbar-nav navbar-nav-first" >
                          <li><a href="#top" class="smoothScroll">Home</a></li>
                          <li><a href="#about" class="smoothScroll">About</a></li>
-                         <li><a href="#team" class="smoothScroll">Why Choose REDBACK ACADEMY?</a></li>
+                         <li><a href="#team" class="smoothScroll">Why US?</a></li>
                          <li><a href="#courses" class="smoothScroll">Courses</a></li>
                          <!-- <li><a href="#testimonial" class="smoothScroll">Reviews</a></li> -->
                          <!-- <li><a href="#contact" class="smoothScroll">Contact</a></li> -->
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#"><i class="fa fa-phone"></i> +91 9080416869, +91 9655552901</a></li>
+                         <li><a href="tel:+91 9080416869"><i class="fa fa-phone"></i> +91 9080416869</a></li>
+                         <li><a href="tel:+91 9655552901"><b>,</b>+91 9655552901</a></li>
                     </ul>
                </div>
 
@@ -108,7 +135,7 @@ https://templatemo.com/tm-516-known
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-6 col-sm-12">
-                                             <h1>Redback IT Academy Programs</h1>
+                                             <h1>Telyhub IT Academy Programs</h1>
                                              <h3>Provides industry-leading, technology skills to help bridge the skills gap.</h3>
                                              <!-- <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a> -->
                                         </div>
@@ -221,10 +248,10 @@ https://templatemo.com/tm-516-known
 
                     <div class="col-md-6 col-sm-12">
                          <div class="about-info">
-                              <h2>What RedBack does?</h2>
-                               <p style="font-size: 20px">REDBACK is the World's Largest Ceritification and Training body in Information Security now providing a range of IT Security courses in India.<br><br>REDBACK supports and enhances the role of Individuals and organizations who Design,Create,Manage or Market Security and E-Business solutions.</p>
+                              <h2>What Telyhub does?</h2>
+                               <p style="font-size: 20px;line-height: 1.5">TELYHUB IT Park is the World's Largest Ceritification and Training body in Information Security now providing a range of IT Security courses in India.<br><br>TELYHUB supports and enhances the role of Individuals and organizations who Design,Create,Manage or Market Security and E-Business solutions.</p>
                                <h2>E-Hacking</h2>
-                               <p style="font-size: 20px">An Ethical Hacker is one name given to a Penetration Tester. An Ethical Hacker is usually employed by an organization who trust him or her to attempt to penetrate networks and/or computer systems, using the same methods as a hacker, for the purpose of finding and fixing computer security vulnerabilities.</p>
+                               <p style="font-size: 20px;line-height: 1.5">An Ethical Hacker is one name given to a Penetration Tester. An Ethical Hacker is usually employed by an organization who trust him or her to attempt to penetrate networks and/or computer systems, using the same methods as a hacker, for the purpose of finding and fixing computer security vulnerabilities.</p>
 
                               <!-- <figure>
                                    <span><i class="fa fa-users"></i></span>
@@ -255,7 +282,7 @@ https://templatemo.com/tm-516-known
                     <div class="col-md-offset-1 col-md-4 col-sm-12">
                          <div class="entry-form" style="padding: 3em">
                               <form action="#" method="post">
-                                   <h3><b><font color="red">REDBACK</font></b></h3>
+                                   <h3><b><font color="red">TELYHUB IT PARK</font></b></h3>
                                    <h2><b><font color="red">Certified</font></b></h2>
                                    <h3><font color="white">Ethical Hacking</font></h3>
                                    <h3><font color="white">Cyber Security</font></h3>
@@ -386,12 +413,12 @@ https://templatemo.com/tm-516-known
                          <div class="owl-carousel owl-theme owl-courses">
                               <div class="col-md-4 col-sm-4"  >
                                    <div class="item" >
-                                        <div class="courses-thumb" >
+                                        <div class="courses-thumb" style="padding-right: 40px;padding-left: 40px;padding-top: 5px;padding-bottom: 40px" >
                                              <div class="courses-top" >
                                                   
                                                        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Graphic Design</h2>
                                                    <div class="courses-image">
-                                                   	  <img src="images/graphdes.jpeg" class="img-responsive" alt="">
+                                                   	  <img src="images/graphdes.jpeg" class="img-responsive" style="max-width: 300px" alt="">
                                                    </div>
                                                   <!-- <div class="courses-date">
                                                        <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
@@ -403,9 +430,9 @@ https://templatemo.com/tm-516-known
                                                   <!-- <h3><a href="#">Social Media Management</a></h3>
                                                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                                                   <ul style="font-size:20px">
-                                                       <li>Adobe Photoshop CSS</li>
-                                                       <li>Adobe Illustrator CSS</li>
-                                                       <li>Adobe Indesign CSS</li>
+                                                       <li>Adobe Photoshop </li>
+                                                       <li>Adobe Illustrator </li>
+                                                       <li>Adobe Indesign </li>
                                                        <li>Adobe Lightroom</li>
                                                        <li>UI/UX Design, Dreamweaver</li>
                                                   </ul>
@@ -426,7 +453,7 @@ https://templatemo.com/tm-516-known
 
                               <div class="col-md-4 col-sm-4">
                                    <div class="item">
-                                        <div class="courses-thumb" >
+                                        <div class="courses-thumb" style="padding-right: 40px;padding-left: 40px;padding-top: 5px;padding-bottom: 70px" >
                                              <div class="courses-top">
                                                   <h2>   &nbsp;&nbsp;   Web Design </h2>
                                                   <div class="courses-image">
@@ -465,7 +492,7 @@ https://templatemo.com/tm-516-known
 
                               <div class="col-md-4 col-sm-4">
                                    <div class="item">
-                                        <div class="courses-thumb" >
+                                        <div class="courses-thumb" style="padding-right: 40px;padding-left: 40px;padding-top: 5px;padding-bottom: -300px" >
                                              <div class="courses-top">
                                                   <h2>&nbsp;&nbsp;&nbsp;&nbsp;Web Development</h2>
                                                   <div class="courses-image">
@@ -484,7 +511,7 @@ https://templatemo.com/tm-516-known
                                                        <li>HTML,CSS,PHP,C#</li>
                                                        <li>Python,Ruby,NodeJs</li>
                                                        <li>PHP/SQL/Wordpress</li>
-                                                       <li>Javascript,jQuery,AngularJs</li><br>
+                                                       <li>Javascript,jQuery,<br>AngularJs</li><br>
                                                        
                                                   </ul>
 
@@ -505,7 +532,7 @@ https://templatemo.com/tm-516-known
 
                               <div class="col-md-4 col-sm-4">
                                    <div class="item">
-                                        <div class="courses-thumb">
+                                        <div class="courses-thumb" style="padding-right: 40px;padding-left: 40px;padding-top: 5px;padding-bottom: 30px">
                                              <div class="courses-top">
                                                   <h2>&nbsp;&nbsp;Android Application</h2>
                                                   <div class="courses-image">
@@ -712,7 +739,7 @@ https://templatemo.com/tm-516-known
  -->
 
      <!-- FOOTER -->
-    <footer id="footer" style="padding: 10px 0;">
+    <footer id="footer" style="padding: 20px 0;">
           <div class="container">
                <div class="row">
 
@@ -741,7 +768,7 @@ https://templatemo.com/tm-516-known
                                    <ul>
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">About Company</a></li>
-                                        <li><a href="#">Why choose Redback Academy</a></li>
+                                        <li><a href="#">Why US?</a></li>
                                         <li><a href="#">Courses</a></li>
                                    </ul>
                          </div>
@@ -753,8 +780,9 @@ https://templatemo.com/tm-516-known
                                    <h2>Contact Info</h2>
                               </div>
                               <address>
-                                   <p>+91 9080416869, +91 9655552901</p>
-                                   <p><a href="mailto:telyhubitpart@gmail.com">telyhubitpart@gmail.com</a></p>
+                                   <p><a href="tel:+91 9080416869"><i class="fa fa-phone"></i>+91 9080416869</a></p>
+                                   <p><a href="tel:+91 9655552901"><i class="fa fa-phone"></i>+91 9655552901</a></p>
+                                   <p><a href="mailto:telyhubitpart@gmail.com"><i class="fa fa-envelope"></i>  telyhubitpart@gmail.com</a></p>
                               </address>
                          </div>
                     </div>
@@ -779,6 +807,27 @@ https://templatemo.com/tm-516-known
                </div>
           </div>
      </footer>
+     <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
