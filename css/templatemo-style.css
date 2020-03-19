@@ -996,6 +996,7 @@ https://templatemo.com/tm-516-known
   .logo{
 	  width:100px;
 	  height: 50px;
+	  margin-top: -4%;
 	}
 @media only screen and (max-width: 480px) {
 	.logo{
